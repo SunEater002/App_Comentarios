@@ -17,3 +17,6 @@ El proyecto contiene los siguientes archivos:
 3. Haz clic en el botón "Enviar" para agregar tu comentario.
 4. Puedes eliminar un comentario haciendo clic en el botón "Eliminar".
 5. Puedes dar like a un comentario haciendo clic en el botón "Like".
+
+## Link de visualizacion 
+https://suneater002.github.io/App_Comentarios/
