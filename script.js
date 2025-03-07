@@ -19,7 +19,7 @@ button.addEventListener('click', () => {  // Se le agrega un evento al boton
         let botonEliminar = document.createElement('button');  // Se crea un nuevo elemento, en este caso el boton
         botonEliminar.innerHTML = "Eliminar";           // Se le agrega un texto al boton
         botonEliminar.classList.add('eliminar');        // Se le agrega una clase al boton
-        botonEliminar.addEventListener('click', () => {
+        botonEliminar.addEventListener('click', () => {  
             nuevoComentario.remove(); //se le agrega el eveto de eliminar al boton con el metodo remove
         });
 
@@ -28,7 +28,7 @@ button.addEventListener('click', () => {  // Se le agrega un evento al boton
         botonLike.innerHTML = "Like";
         botonLike.classList.add('like');
         botonLike.addEventListener('click', () => {
-            botonLike.innerHTML = "Liked";
+            botonLike.innerHTML = "Liked" + "👍";
         });
 
         //Agregar fecha y hora
